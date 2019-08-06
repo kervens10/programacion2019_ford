@@ -23,10 +23,45 @@ var multiplicacion = (numero1) * (numero2);
 var division = (numero1) / (numero2);
 var residuo = (numero1) % (numero2);
 var potencia =  (numero1) ** (numero2);
+var mayor = (numero1) > (numero2);
+var menor = (numero1) < (numero2);
+var mayor_que = (numero1) >= (numero2);
+var menor_que = (numero1) <= (numero2);
 
-console.log(suma);
-console.log(resta);
-console.log(multiplicacion);
-console.log(division);
-console.log(residuo);
-console.log(potencia);
+
+ if (numero1 > numero2) {
+     console.log("mayor");
+     document.write(`<h1> es mayor </h1>`);
+ } else {
+     console.log("menor");
+       document.write(`<h1> ganster </h1>`);
+ }
+ if (numero1 >= numero2) {
+     console.log("mayor o que");
+      document.write(`<h1> pale cho </h1>`);
+ } else {
+     console.log("menoro o que");
+      document.write(`<h1> Nou pa pale anpil </h1>`);
+
+ }
+
+ if (numero1 == numero2) {
+       console.log("igual");
+        document.write(`<h1> mwen pa byen avew ou santi pipi </h1>`);
+ } else {
+     console.log("no es igual");
+      document.write(`<h1 > Al vole non tifi </h1>`);
+ }
+
+ console.log(suma);
+ console.log(resta);
+ console.log(multiplicacion);
+ console.log(division);
+ console.log(residuo);
+ console.log(potencia);
+ console.log(mayor);
+ console.log(menor);
+ console.log(mayor_que);
+ console.log(menor_que);
+
+
