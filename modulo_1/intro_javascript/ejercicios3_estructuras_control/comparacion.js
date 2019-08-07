@@ -68,12 +68,15 @@ console.log(`El pago total ${pago_total} usd`);
 
 
 var nombre = prompt ("digite su nombre ");
-var ano= prompt("digite su edad ");
+var ano= prompt("digite su ano de nacimiento ");
 
 if (ano > 0  ) {
     var i= (2019) - (ano);
     console.log(`El numero es  ${i} positivo`);
-} else if (ano === 0) {
+ 
+} 
+
+else if (ano === 0) {
 
     console.log(`El numero es  ${i} 0`);
 
@@ -81,7 +84,6 @@ if (ano > 0  ) {
 else{
     console.log(`El numero es  ${i} negativo o dejame en paz o wentchelle volo kabrit`);
 }
-
 
 /*
 var nombre = prompt("digite su nombre ");
