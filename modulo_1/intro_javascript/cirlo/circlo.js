@@ -84,4 +84,19 @@ do{
  var num4 = parseInt(prompt("Digite un numero que sea negativo"));
 }
 while (num4 > 0);
+
+//9
+do {
+    var num5 = parseInt(prompt("Digite un numero que sea positivo y pares"));
+}
+while (num5 < 0 || !(num5%2==0));
 */
+
+do {
+    var num10 = prompt("El primero contrasena debe ser igual al segundo");
+    var num11 = prompt("El segundo debe ser igual al primero");
+}
+while (!(num10 ===num11));
+console.log("they are match together");
+document.write(`<h1>they are match together</h1>`);
+
