@@ -1,4 +1,4 @@
-/*
+
 //1
 
 var num1 = parseInt(prompt("Digite un numero "));
@@ -41,8 +41,7 @@ while(pin.length !== 4){
     var pin = prompt("Digite el pin que tenga 4 Pin ");
 }
 alert(`El Pin es ${pin}`);
-*/
-/*
+
 //5
 
 var monto = parseInt(prompt("digite un monto para abrir esta cuenta"));
@@ -90,8 +89,19 @@ do {
     var num5 = parseInt(prompt("Digite un numero que sea positivo y pares"));
 }
 while (num5 < 0 || !(num5%2==0));
-*/
 
+
+
+
+
+
+
+
+
+
+
+
+/*
 do {
     var num10 = prompt("El primero contrasena debe ser igual al segundo");
     var num11 = prompt("El segundo debe ser igual al primero");
@@ -100,3 +110,4 @@ while (!(num10 ===num11));
 console.log("they are match together");
 document.write(`<h1>they are match together</h1>`);
 
+*/
