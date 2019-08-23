@@ -23,13 +23,12 @@
     <form method="post">
     <div class ="form-group">
      <label for="numero1"><h4>numero1</h4></label>
-    <input type="number"  name="numero1" class="form-control">
+    <input type="number"  name="numero1" value="." class="form-control">
      </div>
 
 
   <div class ="form-group">
      <label for="numero2"><h4>numero2</h4></label>
-    <input type="number"  name="numero2" class="form-control">
      </div>
     </div>
 
@@ -50,17 +49,40 @@
 
 
 
-
-
-
-
 <!--resultado-->
     <div class="col-md-6">
     <?php
-    
-  echo "<pre>";
-  print_r($_POST);
-  echo"</pre>"
+    if (isset($_POST['calcular'])) {
+        $numero1=$_POST['numero1'];
+          $numero2=$_POST['numero2'];
+            $opcion=$_POST['opcion'];
+
+            // proceso
+            if ($opcion==1){
+                $suma=$numero1 +$numero2;
+                echo "<div>Resultado de la suma. $numero1 + $numero2 = $suma </div>";
+            }
+
+
+   if ($opcion==2){
+                $resta=$numero1 -$numero2;
+                echo "<div>Resultado de la resta. $numero1 - $numero2 = $resta </div>";
+            }
+
+
+   if ($opcion==3){
+                $multiplicacion=$numero1 *$numero2;
+                echo "<div>Resultado de la multiplicacion . $numero1 * $numero2 = $multiplicacion </div>";
+            }
+
+
+
+          if ($opcion==4){
+                $division=$numero1 /$numero2;
+                echo "<div>Resultado de la division. $numero1 / $numero2 = $division</div>";
+            }  
+
+    }
     ?>
 
     </div> 
