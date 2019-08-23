@@ -14,51 +14,56 @@
     <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body background="371330_ford.jpg">
-
- <h1>This page is for searching Things</h1>
- <h2>Search right here !!!!</h2>
     <div class="container">
     <div class="row">
     <div class="col-md-5">
     <form method="get">
 
     <div class ="form-group">
-    <input type="text" class="form-control" name="sumar"placeholder="Suma algunos numeros">
+     <label for="num1"><h4>num1</h4></label>
+    <input type="number" class="form-control" name="num1"placeholder="Que desea buscar">
      </div>
 
-      <div class ="form-group">
-    <input type="text" class="form-control" name="sumar1"placeholder="Suma1 numeros">
+
+    <div class ="form-group">
+     <label for="num2"><h4>num2</h4></label>
+    <input type="number" class="form-control" name="num2"placeholder="Que desea num2">
      </div>
 
- <button type="submit" name="sumas" class="btn btn-primary">sumas</button>
 
+ <button type="submit" name="suma" class="btn btn-primary">suma</button>
 
 
     </div>
     </form>
-    </div>
-     <?php
+
+         <?php
  //echo"<pre>";
 // print_r($_POST);
 //echo"</pre>";
 if ( isset($_GET['suma']) ) {
-    echo "suma";
+    echo "suma ";
 
+    echo "</prep>";
+    print_r($_POST);
+    
      //almacenar los datos 
-    $suma = $_GET['sumar'];
-     $suma1 = $_GET['sumas'];
+    $num1 = $_GET['num1'];
+    $num2= $_GET['num2'];
+    $suma =$num1 + $num2;
+
 
     echo "<div class='col-md-4 alert alert-success'>
-   El resulta do es   $suma1 +  $suma = $suma1
+    La Suma de $num1 y $num2 es  $suma
     </div>";
  
 }
 
 
 
-
-
   ?>
+    </div>
+
     </div>
   </div>
 </body>
