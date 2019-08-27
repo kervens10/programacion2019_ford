@@ -1,4 +1,8 @@
+<?php 
 
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +14,7 @@
 </head>
 <body>
  <div class="container">
-    <h1 class="display-4"> The Form</h1>
+    <h1 class="display-4"><strong>The Form</strong></h1>
     <div class="row">
 
  <div class="col-md-5">
@@ -20,37 +24,58 @@
      </div>
 
         <div class ="form-group">
-    <input type="text"  name="Url" placeholder="Url de un imagen" class="form-control">
+    <input type="text"  name="url" placeholder="url de un imagen" class="form-control">
      </div>
 
 <div class="form-group">
 <button name="Register" class="btn btn-primary">Register</button>
 </form>
+<hr>
+ <a href="listado.php">Go tho the list</a>
 </div>
 
  <h1>This form have ford purpose to registre all name of all students in the University </h1>
 
-<img src="371330_ford.jpg" alt="">
-
-
+<!-- <img src="371330_ford.jpg" alt=""> -->
 
 
 
 <div class="col-md-6">
-    <?php
+
+
+<div class="container">
+            <div class='row'>
+<?php
+
+    if (!isset($_SESSION['publicaciones'])) {
+      $_SESSION['publicaciones'] = [];
+    }
+
+
     if (isset($_POST['Register'])) {
         $datos=new stdClass();
           $datos->nombre=$_POST['nombre'];
-           $datos->Url=$_POST['Url'];
-           echo "<pre>"
-    print_r($datos);
-     echo "</pre>"
+           $datos->url=$_POST['url'];
+
+           print_r($_SESSION);
+
+
+    $result = array_push($_SESSION['publicaciones'], $datos);
+
+    if ($result) {
+        echo " La publicacion se guardo";
+    } else {
+        echo " No se guardo";
+    }
+
     }
     ?>
 
     </div> 
     </div>
     </div>
+ </div>
+ </div>
     </form>
     </div>
 </body>
