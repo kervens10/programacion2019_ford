@@ -23,7 +23,6 @@
     <form method="get">
 
     <div class ="form-group">
-     <label for="Busqueda"><h4>Busqueda</h4></label>
     <input type="text" class="form-control" name="busca"placeholder="Que desea buscar">
      </div>
 
