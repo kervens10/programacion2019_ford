@@ -1,7 +1,7 @@
 
 <?php
 
-
+//4. Calcular la hipotenusa de un triangulo
 
 ?>
 
@@ -23,14 +23,14 @@
     <div class="col-md-5">
     <form method="post">
     <div class ="form-group">
-     <label for="base"><h4>LA Base</h4></label>
-    <input type="bas"  name="base"  placeholder="Digite la base"  class="form-control">
+     <label for="cateto1"><h4>cateto1</h4></label>
+    <input type="cate"  name="cateto1"  placeholder="Digite el cateto1"  class="form-control">
      </div>
 
 
   <div class ="form-group">
-     <label for="altura"><h4> La altura</h4></label>
-      <input type="altura"  name="altura"  placeholder="Digite la altura"  class="form-control">
+     <label for="cateto2"><h4> cateto2</h4></label>
+      <input type="catet"  name="cateto2"  placeholder="Digite el cateto2"  class="form-control">
      </div>
 
 
@@ -48,12 +48,12 @@
     <div class="col-md-6">
     <?php
     if (isset($_POST['hipotenusa'])) {
-        $base=$_POST['base'];
-          $altura=$_POST['altura'];
+        $cateto1=$_POST['cateto1'];
+          $cateto2=$_POST['cateto2'];
 
             // calcular e imprimir la hipotenusa.
-                $hipo = $base * $altura;
-                echo "<div>Resultado de la hipotenusa es : $base * $altura = $hipo </div>";
+                $hipo = $cateto1 * $cateto2;
+                echo "<div> Calcula  de la hipotenusa es : $cateto1 * $cateto2 = $hipo </div>";
 
     }
     ?>

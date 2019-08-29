@@ -1,6 +1,6 @@
 <?php
 
-
+//2. Digitar 4 notas y calcular e imprimir el promedio.
 
 ?>
 

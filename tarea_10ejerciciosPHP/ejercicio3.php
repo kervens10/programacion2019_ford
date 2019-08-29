@@ -1,7 +1,7 @@
 
 <?php
 
-
+//3. Calcular la distancia recorrida (Buscar formula de la distancia)
 
 ?>
 
@@ -29,7 +29,7 @@
 
 
   <div class ="form-group">
-     <label for="altura"><h4> La altura</h4></label>
+     <label for="altura"><h4> El tiempo</h4></label>
       <input type="tiemp"  name="tiempo"  placeholder="Digite el tiempo"  class="form-control">
      </div>
 

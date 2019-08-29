@@ -1,7 +1,7 @@
 
 <?php
 
-
+//6. Digitar el año de nacimiento e imprimir la edad actual
 
 ?>
 
