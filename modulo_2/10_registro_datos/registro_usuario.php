@@ -1,7 +1,5 @@
 <?php
 
-session_start();
-
 require_once 'conexion.php';
 
 try {
@@ -31,15 +29,11 @@ try {
              throw new Exception("YA existe este usuario . Elija otro",1);
          }
 
-         $id_user = $_SESSION['id_user'];
-         //Encriptar la contrasena 
-         $contrasena = password_hash($contrasena);
-
-        // Insertar  
+        // Insertar     
         $sql = "INSERT INTO users
-                (name, username, password,created_by)
+                (name, username, password)
                 VALUES
-                (\"$nombre\", \"$usuario\", \"$contrasena\",$id_user)";
+                (\"$nombre\", \"$usuario\", \"$contrasena\")";
 
         $resultado = $conexion->exec($sql);
 
@@ -64,4 +58,4 @@ try {
 }
 
 // Incluir la vista
-require_once 'vistas/registro_cartas.html.php';
+require_once 'vistas/registro_cartas1.html.php';
