@@ -50,11 +50,9 @@
                 </form>
 
                 <?php
-if (isset($error)){
-echo $error['mensaje'];
-
-}
-
+                    if (isset($error)) {
+                        echo $error['mensaje'];
+                    }
                 ?>
 
             </div>
