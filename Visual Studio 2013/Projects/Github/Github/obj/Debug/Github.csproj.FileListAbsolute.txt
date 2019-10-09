@@ -1,0 +1,12 @@
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\bin\Debug\Github.exe.config
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\bin\Debug\Github.exe
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\bin\Debug\Github.pdb
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.csprojResolveAssemblyReference.cache
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.Form1.resources
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.Formconfigure.resources
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.FormMake.resources
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.FormsignIn.resources
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.Properties.Resources.resources
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.csproj.GenerateResource.Cache
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.exe
+c:\users\estudiante\documents\visual studio 2013\Projects\Github\Github\obj\Debug\Github.pdb
