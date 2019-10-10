@@ -40,5 +40,38 @@ namespace Github
         {
             this.Close();
         }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+            var longitudUsername = txtUsername.Text.Length;
+            var longitudPassword = txtpassword.Text.Length;
+
+            if (longitudUsername > 0 && longitudPassword > 0)
+            {
+                btnsignin.Enabled = true;
+
+            }
+            else
+            {
+                btnsignin.Enabled = false;
+            }
+        }
+
+        private void txtpassword_TextChanged(object sender, EventArgs e)
+        {
+            var longitudUsername = txtUsername.Text.Length;
+            var longitudPassword = txtpassword.Text.Length;
+
+            if (longitudUsername > 0 && longitudPassword > 0)
+            {
+                btnsignin.Enabled = true;
+
+            }
+            else
+            {
+                btnsignin.Enabled = false;
+            }
+        }
+
     }
 }
