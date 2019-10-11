@@ -31,5 +31,10 @@ namespace Github
         {
             System.Diagnostics.Process.Start("https://desktop.github.com/");
         }
+
+        private void chkUsage_CheckedChanged(object sender, EventArgs e)
+        {
+            btnFinish.Enabled = chkUsage.Checked;
+        }
     }
 }
