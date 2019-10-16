@@ -157,11 +157,41 @@ namespace Movimiento
         private void label2_Click(object sender, EventArgs e)
         {
 
+            var locationX = e.Location.X;
+            var locationY = e.Location.Y;
+
+            label2.Location = new System.Drawing. Point (Location.X, Location.Y);
+
+
+
         }
 
         private void o(object sender, PreviewKeyDownEventArgs e)
         {
 
+        }
+
+        private void label3_MouseMove(object sender, MouseEventArgs e)
+        {
+            //MessageBox.Show("Te estas moviendo");
+
+
+        }
+
+        private void label1_MouseMove(object sender, MouseEventArgs e)
+        {
+            
+        System.Diagnostics.Trace.WriteLine(Location);
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+            {
+                var location = e.Location;
+
+                System.Diagnostics.Trace.WriteLine(Location);
+            }
         }
     }
 }

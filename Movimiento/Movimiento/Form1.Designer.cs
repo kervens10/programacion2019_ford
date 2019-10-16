@@ -42,6 +42,7 @@
             this.label1.Size = new System.Drawing.Size(30, 29);
             this.label1.TabIndex = 1;
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             this.label1.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.o);
             // 
             // label2
@@ -62,6 +63,8 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(350, 401);
             this.label3.TabIndex = 3;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label3_MouseMove);
             // 
             // Form1
             // 
