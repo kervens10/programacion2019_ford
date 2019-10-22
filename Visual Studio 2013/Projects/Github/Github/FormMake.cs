@@ -36,5 +36,10 @@ namespace Github
         {
             btnFinish.Enabled = chkUsage.Checked;
         }
+
+        private void FormMake_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

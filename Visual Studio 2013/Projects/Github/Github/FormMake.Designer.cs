@@ -125,6 +125,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormMake";
             this.Text = "Make It Better";
+            this.Load += new System.EventHandler(this.FormMake_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
