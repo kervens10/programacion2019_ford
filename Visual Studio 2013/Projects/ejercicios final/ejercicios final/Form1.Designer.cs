@@ -107,7 +107,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(683, 459);
+            this.tabControl1.Size = new System.Drawing.Size(871, 545);
             this.tabControl1.TabIndex = 0;
             // 
             // hipotenusa
@@ -524,15 +524,15 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.SeaShell;
             this.tabPage1.Controls.Add(this.listBox1);
             this.tabPage1.Controls.Add(this.button6);
             this.tabPage1.Controls.Add(this.es);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(675, 433);
+            this.tabPage1.Size = new System.Drawing.Size(863, 519);
             this.tabPage1.TabIndex = 6;
             this.tabPage1.Text = "Numero de 1 a 100";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // es
             // 
@@ -567,7 +567,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 483);
+            this.ClientSize = new System.Drawing.Size(895, 520);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";
